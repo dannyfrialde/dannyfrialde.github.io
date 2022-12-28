@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: #24252a;
+        background-image: url(bgimg.png);
+            background-size: cover;
+            overflow-x: hidden;
+}   
+
+
+
+
+nav li, a, button {
+    font-family: Audiowide, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #008a90;
+    
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.logo {
+    height: 0.5in;
+    width: 2in;
+    cursor: pointer;
+} 
+
+.name {
+    max-width: 250px;
+    margin: 20px 20px;
+    border-bottom: 3px solid #6B728E;
+    background-color: transparent;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+.myname{
+    color: white;
+    
+}
+
+.dan {
+    max-width: 800px;
+    max-height: 500px;
+    position: relative;
+    left: 400px;
+    top: -20px;
+}
+
+.main
+{
+    max-width: 800px;
+    max-height: 500px;
+    position: relative;
+    top: -400px;
+    left: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    text-align: center;
+    background: rgba(92, 184, 221, 0.2);
+    border-radius: 10px;
+    -webkit-text-fill-color: transparent
+    -webkit-text-stroke:1px #333333
+}
+
+.me{
+    color:whitesmoke;
+    font-size: 0.7cm;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(61, 151, 202);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(61, 151, 200)
+}

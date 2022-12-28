@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #24252a;
+    background-image: url(bgimg.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+nav li, a, button {
+    font-family: Audiowide, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #008a90;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.logo {
+    height: 0.5in;
+    width: 2in;
+    cursor: pointer;
+} 
+
+.contact {
+    color: whitesmoke;
+    font-size: 0.7cm;
+    text-align: center;
+    top: 50px;
+    font-family: Audiowide, sans-serif;
+    position: relative;
+}
+
+ion-icon {
+    top: 900px;
+} 
+
+
+.fb{
+    color: whitesmoke;
+    font-size: 100px;
+    margin: 0 10px;
+    position: relative;
+    top: 150px;
+    left: 550px;
+}
+.fb :hover {
+    color: #3163ee;
+    transition: color 0.2s;
+}
+
+.gmail {
+    color: whitesmoke;
+    font-size: 100px;
+    position: relative;
+    top: 150px;
+    left: 550px;
+}
+.gmail:hover {
+color: rgb(236, 236, 161);
+transition: color 0.2s;
+}
+
+.thanks {
+    color: whitesmoke;
+    font-size: 0.7cm;
+    text-align: center;
+    top: 200px;
+    font-family: Audiowide, sans-serif;
+    position: relative;
+}
